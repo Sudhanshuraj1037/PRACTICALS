@@ -1,0 +1,267 @@
+# Practical 1 — Git Installation, Repository Initialization and Basic Commands
+
+## 📌 Objective
+
+To understand the fundamentals of Git by creating a project directory, initializing a local Git repository, tracking files, creating commits, and viewing the repository history.
+
+---
+
+## 🎯 Learning Objectives
+
+This practical demonstrates the following Git concepts:
+
+* Creating directories using the command line
+* Creating and editing files
+* Initializing a Git repository
+* Checking the working tree status
+* Staging files
+* Creating commits
+* Viewing commit history
+* Viewing a compact commit history
+
+---
+
+## 🛠️ Tools Used
+
+* Git
+* Git Bash / Terminal
+* Nano Text Editor
+
+---
+
+## 📂 Project Structure
+
+The practical was created using the following directory structure:
+
+```text
+PRACTICALS/
+└── practical1/
+    └── file1.txt
+```
+
+---
+
+## 🔧 Practical Implementation
+
+### 1. Create the Main Directory
+
+The `PRACTICALS` directory was created to contain the DevOps practical work.
+
+```bash
+mkdir PRACTICALS
+```
+
+Navigate into the directory:
+
+```bash
+cd PRACTICALS
+```
+
+---
+
+### 2. Create the Practical Directory
+
+A separate directory was created for Practical 1:
+
+```bash
+mkdir practical1
+cd practical1
+```
+
+---
+
+### 3. Create a File
+
+A text file named `file1.txt` was created using the `touch` command:
+
+```bash
+touch file1.txt
+```
+
+---
+
+### 4. Edit the File
+
+The file was opened using the Nano text editor:
+
+```bash
+nano file1.txt
+```
+
+Content was added to the file and saved.
+
+---
+
+### 5. Display File Content
+
+The contents of the file were verified using:
+
+```bash
+cat file1.txt
+```
+
+---
+
+## 🌱 Git Repository Initialization
+
+### 6. Initialize the Git Repository
+
+Git was initialized inside the `practical1` directory:
+
+```bash
+git init
+```
+
+This creates a hidden `.git` directory that contains the metadata required for Git version control.
+
+---
+
+## 🔍 Checking Repository Status
+
+### 7. Check Repository Status
+
+The repository status was checked using:
+
+```bash
+git status
+```
+
+This command displays information about the current branch and the state of files in the working directory.
+
+---
+
+## 📦 Staging Files
+
+### 8. Add Files to the Staging Area
+
+All files in the current directory were added to the staging area:
+
+```bash
+git add .
+```
+
+The status was then checked again:
+
+```bash
+git status
+```
+
+The staged files were ready to be included in the next commit.
+
+---
+
+## 💾 Creating the First Commit
+
+### 9. Commit the Changes
+
+The staged changes were committed using:
+
+```bash
+git commit -m "Initial commits"
+```
+
+The commit creates a snapshot of the staged changes in the Git repository.
+
+---
+
+## 📜 Viewing Commit History
+
+### 10. View Complete Commit History
+
+The repository history was viewed using:
+
+```bash
+git log
+```
+
+This displays detailed information about commits, including:
+
+* Commit hash
+* Author
+* Date
+* Commit message
+
+---
+
+### 11. View Compact Commit History
+
+A concise version of the commit history was displayed using:
+
+```bash
+git log --oneline
+```
+
+This provides a compact view containing the commit hash and commit message.
+
+Example:
+
+```text
+<commit-hash> Initial commits
+```
+
+---
+
+## 🔄 Git Workflow Demonstrated
+
+The practical demonstrates the basic Git workflow:
+
+```text
+Create Project
+      │
+      ▼
+Create File
+      │
+      ▼
+Initialize Repository
+      │
+      ▼
+Check Status
+      │
+      ▼
+Stage Files
+      │
+      ▼
+Check Status
+      │
+      ▼
+Commit Changes
+      │
+      ▼
+View Commit History
+```
+
+---
+
+## 📋 Commands Used
+
+| Command             | Purpose                                |
+| ------------------- | -------------------------------------- |
+| `mkdir PRACTICALS`  | Creates the main practical directory   |
+| `cd PRACTICALS`     | Navigates into the directory           |
+| `mkdir practical1`  | Creates the Practical 1 directory      |
+| `cd practical1`     | Navigates into the practical directory |
+| `touch file1.txt`   | Creates a new text file                |
+| `nano file1.txt`    | Opens the file for editing             |
+| `cat file1.txt`     | Displays the file contents             |
+| `git init`          | Initializes a Git repository           |
+| `git status`        | Displays the repository status         |
+| `git add .`         | Stages all changes                     |
+| `git commit -m`     | Creates a commit with a message        |
+| `git log`           | Displays detailed commit history       |
+| `git log --oneline` | Displays compact commit history        |
+
+---
+
+## ✅ Result
+
+The local Git repository was successfully created and initialized. A file was created, edited, staged, and committed. The repository status and commit history were also successfully inspected using Git commands.
+
+---
+
+## 💡 Key Takeaway
+
+This practical introduced the fundamental Git workflow:
+
+**Working Directory → Staging Area → Repository**
+
+Understanding this workflow provides the foundation for more advanced DevOps practices such as branching, collaboration, CI/CD, and automated deployment.
