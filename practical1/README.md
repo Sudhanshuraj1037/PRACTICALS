@@ -1,4 +1,4 @@
-# Practical 1 — Git Installation, Repository Initialization and Basic Commands
+# Practical 1 — Git Installation, Repository Initialization & Basic Commands
 
 ## 📌 Objective
 
