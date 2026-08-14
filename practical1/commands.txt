@@ -1,0 +1,153 @@
+PRACTICAL 1
+Installation and Configuration of Git
+=====================================
+
+1. Check Git Version
+
+---
+
+git --version
+
+2. Configure Git Username
+
+---
+
+git config --global user.name "Your Name"
+
+3. Configure Git Email
+
+---
+
+git config --global user.email "[your-email@example.com](mailto:your-email@example.com)"
+
+4. View Git Configuration
+
+---
+
+git config --global --list
+
+5. View Git Username
+
+---
+
+git config --global user.name
+
+6. View Git Email
+
+---
+
+git config --global user.email
+
+7. Create the Main Project Directory
+
+---
+
+mkdir PRACTICALS
+
+8. Navigate to the Project Directory
+
+---
+
+cd PRACTICALS
+
+9. Create Practical 1 Directory
+
+---
+
+mkdir practical1
+
+10. Navigate to Practical 1 Directory
+
+---
+
+cd practical1
+
+11. Create a New File
+
+---
+
+touch file1.txt
+
+12. Open File Using Nano
+
+---
+
+nano file1.txt
+
+13. Display File Content
+
+---
+
+cat file1.txt
+
+14. Initialize Git Repository
+
+---
+
+git init
+
+15. Check Repository Status
+
+---
+
+git status
+
+16. Stage All Files
+
+---
+
+git add .
+
+17. Check Staged Files
+
+---
+
+git status
+
+18. Create Initial Commit
+
+---
+
+git commit -m "Initial commits"
+
+19. View Commit History
+
+---
+
+git log
+
+20. View Compact Commit History
+
+---
+
+git log --oneline
+
+21. Add GitHub Repository as Remote
+
+---
+
+git remote add origin https://github.com/Sudhanshuraj1037/PRACTICALS.git
+
+22. Verify Remote Repository
+
+---
+
+git remote -v
+
+23. Rename Branch to Main
+
+---
+
+git branch -M main
+
+24. Push Local Repository to GitHub
+
+---
+
+git push -u origin main
+
+25. Push Future Changes
+
+---
+
+git push
