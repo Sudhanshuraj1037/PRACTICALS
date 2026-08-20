@@ -1,0 +1,2 @@
+This file is created in github.
+So that gir pull can be performed in Git bash.
