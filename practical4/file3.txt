@@ -1,0 +1,4 @@
+Day 2 of Practical 4.
+git clone,
+git pull,
+git fetch.
