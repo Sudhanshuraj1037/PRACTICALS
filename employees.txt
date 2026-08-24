@@ -4,3 +4,5 @@ E103 Simran Finance Accountant 45000
 E104 Raj Sales Excutive 40000
 E105 Neha IT Tester 42000
 E106 Priya Marketing Analyst 48000
+E107 Arjun IT DevOps Engineer 55000
+E108 Kavya HR HR Executive 43000
