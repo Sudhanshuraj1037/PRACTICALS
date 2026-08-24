@@ -1,6 +1,6 @@
-
 E101 Harpreet IT Developer 50000
 E102 Amar HR Manager 60000
 E103 Simran Finance Accountant 45000
 E104 Raj Sales Excutive 40000
 E105 Neha IT Tester 42000
+E106 Priya Marketing Analyst 48000
